@@ -3,9 +3,8 @@ $:.unshift('./lib')
 $:.unshift('..')
 $:.unshift('../lib')
 
-require('test/unit')
-require('forkoff')
-
+require 'test/unit'
+require 'forkoff'
 
 class T < Test::Unit::TestCase
 
