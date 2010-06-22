@@ -8,13 +8,13 @@ Gem::Specification::new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.summary = "forkoff"
 
-  spec.files = ["forkoff.gemspec", "lib", "lib/forkoff.rb", "rakefile", "README", "readme.erb", "samples", "samples/a.rb", "samples/b.rb", "samples/c.rb", "samples/d.rb", "test", "test/forkoff.rb"]
+  spec.files = ["forkoff.gemspec", "lib", "lib/forkoff.rb", "rakefile", "README", "readme.erb", "samples", "samples/a.rb", "samples/b.rb", "samples/c.rb", "samples/d.rb", "test", "test/forkoff_test.rb"]
   spec.executables = []
   
   spec.require_path = "lib"
 
   spec.has_rdoc = true
-  spec.test_files = "test/forkoff.rb"
+  spec.test_files = "test/forkoff_test.rb"
   #spec.add_dependency 'lib', '>= version'
   #spec.add_dependency 'fattr'
 
